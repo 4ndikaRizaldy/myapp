@@ -29,7 +29,7 @@ def main():
         st.write(f"Jumlah gambar: {len(image_files)}")
         
         # Filter options
-        fish_options = ["Semua","Andrao", "Maru", "Auranti", "Stewartii", "Barca", "Asiatica"]
+        fish_options = ["Semua","Andrao", "Auranti", "Asiatica", "Barca", "Bukan Channa", "Limbata", "Maru", "Stewartii"]
         selected_fish = st.selectbox("Pilih Jenis Ikan", fish_options)
         
         # Calculate the target size for cropping

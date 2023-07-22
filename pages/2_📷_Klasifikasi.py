@@ -86,18 +86,18 @@ def main():
             elif predicted_label == "Barca":
                 st.write("<h2 style='text-align: center; color: orange;'>Rekomendasi toko</h2>", unsafe_allow_html=True)
                 barca(predicted_label)
+            elif predicted_label == "Bukan Channa":
+                st.write("<h2 style='text-align: center; color: orange;'>Rekomendasi toko</h2>", unsafe_allow_html=True)             
+                bukan_channa(predicted_label)
+            elif predicted_label == "Limbata":
+                st.write("<h2 style='text-align: center; color: orange;'>Rekomendasi toko</h2>", unsafe_allow_html=True)             
+                limbata(predicted_label)
             elif predicted_label == "Maru":
                 st.write("<h2 style='text-align: center; color: orange;'>Rekomendasi toko</h2>", unsafe_allow_html=True)               
                 maru(predicted_label)
             elif predicted_label == "Stewartii":
                 st.write("<h2 style='text-align: center; color: orange;'>Rekomendasi toko</h2>", unsafe_allow_html=True)             
                 stewartii(predicted_label)
-            elif predicted_label == "Limbata":
-                st.write("<h2 style='text-align: center; color: orange;'>Rekomendasi toko</h2>", unsafe_allow_html=True)             
-                limbata(predicted_label)
-            elif predicted_label == "Bukan Channa":
-                st.write("<h2 style='text-align: center; color: orange;'>Rekomendasi toko</h2>", unsafe_allow_html=True)             
-                bukan_channa(predicted_label)
             else:
                 st.info(f"Hasil prediksi: Tidak diketahui")
           

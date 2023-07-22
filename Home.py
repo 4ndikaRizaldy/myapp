@@ -3,6 +3,7 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 
+
 # Animasi
 # GitHub: https://github.com/andfanilo/streamlit-lottie
 # Lottie Files: https://lottiefiles.com/
@@ -49,6 +50,7 @@ st_lottie(
     width=None,
     key=None,
 )
+
 
 with st.container():
     tab1, tab2 , tab3= st.tabs(["Tentang Aplikasi", "Panduan Pengguna", "Tentang Channa"])
